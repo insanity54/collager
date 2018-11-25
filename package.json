@@ -1,0 +1,32 @@
+{
+  "name": "collager",
+  "version": "0.0.1",
+  "description": "Generate collages using images in a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insanity54/collager.git"
+  },
+  "keywords": [
+    "collage",
+    "stitch",
+    "images"
+  ],
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/insanity54/collager/issues"
+  },
+  "homepage": "https://github.com/insanity54/collager#readme",
+  "dependencies": {
+    "globby": "^8.0.1",
+    "gm": "^1.23.1",
+    "moment": "^2.22.2",
+    "mosaic-node-generator": "^1.1.5",
+    "photo-collage": "^1.0.0",
+    "ramda": "^0.26.0"
+  }
+}
